@@ -1,0 +1,33 @@
+body{
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.title {
+	color: #e6e6e6;
+}
+.btn{
+  background-color: rgb(115, 189, 189);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 3px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(0, 157, 255);
+  color: greenyellow;
+  
+}
+.title:hover{
+  color: black;
+  background-color: bisque;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 3px solid rgb(115, 189, 189);
+}
+.btn_container{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
